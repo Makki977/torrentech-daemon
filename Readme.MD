@@ -6,4 +6,4 @@
 
 Torrentech V3's Github project page: https://github.com/users/trancephorm/projects/1  
 Torrentech V2: http://www.torrentech.org  
-My music and mixes: http://www.soundcloud.com/pyc http://www.mixcloud.com/xphorm
+My music and DJ mixes: http://www.soundcloud.com/pyc http://www.mixcloud.com/xphorm
