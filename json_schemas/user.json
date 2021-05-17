@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TorrentechUserProfile",
+  "description": "JSON schema for User of Torrentech V3",
+  "type": "object",
+  "properties": {
+    "user_level_id": {
+      "description": "User level id (administrator, moderator or user), privilieges are stored in User_Level",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Username on the site",
+      "type": "string"
+    },
+    "email": {
+      "description": "User's email address",
+      "type": "string"
+    },
+    "eth_pubkey": {
+      "description": "Ethereum public address, this property is questionable, probably should be stored elsewhere...",
+      "type": "string"
+    },
+    "date_registered": {
+      "description": "Timestamp",
+      "type": "integer"
+    },
+    "avatar" : {
+      "description": "Take a closer look to format..."
+      "type": "object"
+    },
+    "magnet_displays": {
+      "description": "Number of magnet link displays left",
+      "type": "integer"
+    }
+
+  },
+  "required": ["user_level_id","eth_pubkey"],
+  "definitions": //is this needed at all?
+}
