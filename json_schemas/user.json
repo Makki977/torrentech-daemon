@@ -24,16 +24,17 @@
       "description": "Timestamp",
       "type": "integer"
     },
-    "avatar" : {
-      "description": "Take a closer look to format..."
+    "avatar": {
+      "description": "Take a closer look to format...",
       "type": "object"
     },
     "magnet_displays": {
       "description": "Number of magnet link displays left",
       "type": "integer"
     }
-
   },
-  "required": ["user_level_id","eth_pubkey"],
-  "definitions": //is this needed at all?
+  "required": [
+    "user_level_id",
+    "eth_pubkey"
+  ]
 }
